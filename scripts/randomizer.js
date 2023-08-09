@@ -1,7 +1,5 @@
 export const dataRandomizer = () => {
   return Math.floor(Math.random() * 10);
-  // recall that 0 index exists - write exception re 10 index
-  // to indicate a band having the night off
 };
 
 export const dateRandomizer = () => {

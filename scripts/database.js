@@ -1,5 +1,4 @@
 import { dataRandomizer } from "./randomizer.js";
-const rando = dataRandomizer();
 
 const database = {
   venues: [
@@ -81,7 +80,7 @@ const database = {
       genre: "Rock",
       members: 3,
       yearformed: 2012,
-      venueid: rando,
+      venueid: dataRandomizer(),
     },
     {
       id: 2,
@@ -89,7 +88,7 @@ const database = {
       genre: "Pop",
       members: 2,
       yearformed: 2020,
-      venueid: rando,
+      venueid: dataRandomizer(),
     },
     {
       id: 3,
@@ -97,7 +96,7 @@ const database = {
       genre: "Hip Hop",
       members: 4,
       yearformed: 2015,
-      venueid: rando,
+      venueid: dataRandomizer(),
     },
     {
       id: 4,
@@ -105,7 +104,7 @@ const database = {
       genre: "Electronic",
       members: 1,
       yearformed: 2021,
-      venueid: rando,
+      venueid: dataRandomizer(),
     },
     {
       id: 5,
@@ -113,7 +112,7 @@ const database = {
       genre: "Jazz",
       members: 5,
       yearformed: 2005,
-      venueid: rando,
+      venueid: dataRandomizer(),
     },
     {
       id: 6,
@@ -121,7 +120,7 @@ const database = {
       genre: "Country",
       members: 7,
       yearformed: 2000,
-      venueid: rando,
+      venueid: dataRandomizer(),
     },
     {
       id: 7,
@@ -129,7 +128,7 @@ const database = {
       genre: "Blues",
       members: 3,
       yearformed: 2019,
-      venueid: rando,
+      venueid: dataRandomizer(),
     },
     {
       id: 8,
@@ -137,7 +136,7 @@ const database = {
       genre: "Classical",
       members: 12,
       yearformed: 2002,
-      venueid: rando,
+      venueid: dataRandomizer(),
     },
     {
       id: 9,
@@ -145,7 +144,7 @@ const database = {
       genre: "Folk",
       members: 3,
       yearformed: 2003,
-      venueid: rando,
+      venueid: dataRandomizer(),
     },
     {
       id: 10,
@@ -153,7 +152,7 @@ const database = {
       genre: "R&B",
       members: 6,
       yearformed: 2004,
-      venueid: rando,
+      venueid: dataRandomizer(),
     },
   ],
 };
