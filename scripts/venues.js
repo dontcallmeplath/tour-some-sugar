@@ -9,3 +9,7 @@ export const showVenues = () => {
   venueHTML += "</ul>";
   return venueHTML;
 };
+
+// venues.forEach((venue) => {
+//   console.log(venue.bandid);
+// });

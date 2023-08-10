@@ -8,6 +8,7 @@ const database = {
       address: "789 Harmony Street, Musicville",
       squareFootage: 12000,
       capacity: 2000,
+      bandid: dataRandomizer(),
     },
     {
       id: 2,
@@ -15,6 +16,7 @@ const database = {
       address: "456 Crescendo Avenue, Orchestratown",
       squareFootage: 10000,
       capacity: 1500,
+      bandid: dataRandomizer(),
     },
     {
       id: 3,
@@ -22,6 +24,7 @@ const database = {
       address: "123 Beat Boulevard, Groovetown",
       squareFootage: 8000,
       capacity: 1800,
+      bandid: dataRandomizer(),
     },
     {
       id: 4,
@@ -29,6 +32,7 @@ const database = {
       address: "234 Chord Lane, Harmonyville",
       squareFootage: 15000,
       capacity: 2500,
+      bandid: dataRandomizer(),
     },
     {
       id: 5,
@@ -36,6 +40,7 @@ const database = {
       address: "567 Meter Road, Beatville",
       squareFootage: 7000,
       capacity: 1200,
+      bandid: dataRandomizer(),
     },
     {
       id: 6,
@@ -43,6 +48,7 @@ const database = {
       address: "890 Song Street, Serenatown",
       squareFootage: 11000,
       capacity: 1700,
+      bandid: dataRandomizer(),
     },
     {
       id: 7,
@@ -50,6 +56,7 @@ const database = {
       address: "678 Harmony Avenue, Melodyville",
       squareFootage: 9500,
       capacity: 1600,
+      bandid: dataRandomizer(),
     },
     {
       id: 8,
@@ -57,6 +64,7 @@ const database = {
       address: "345 Melody Lane, Chordburg",
       squareFootage: 18000,
       capacity: 3000,
+      bandid: dataRandomizer(),
     },
     {
       id: 9,
@@ -64,6 +72,7 @@ const database = {
       address: "789 Tempo Road, Rhythmtown",
       squareFootage: 6000,
       capacity: 1000,
+      bandid: dataRandomizer(),
     },
     {
       id: 10,
@@ -71,6 +80,7 @@ const database = {
       address: "1234 Harmony Lane, Singville",
       squareFootage: 8500,
       capacity: 1400,
+      bandid: dataRandomizer(),
     },
   ],
   bands: [
